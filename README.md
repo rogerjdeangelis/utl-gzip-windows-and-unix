@@ -16,7 +16,7 @@ Gzip windows and unix.
     https://github.com/rogerjdeangelis/utl_using_sas_zip_and_unzip_engines                                                            
                                                                                                                                       
                                                                                                                                       
-    Very old benchmark on ery slow system                                                                                             
+    Very old benchmark on very slow system                                                                                             
                                                 compress     compress uncompress                                                      
                                                   size        time    time                                                            
                                                                                                                                       
@@ -63,7 +63,7 @@ Gzip windows and unix.
     %utlfkil(d:/zip/cars.gz);                                                                                                         
     %utlfkil(d:/csv/cars.csv);                                                                                                        
                                                                                                                                       
-    * create data may require 1980 Classic SAS before all the negative enhancements?;                                                 
+    * create csv data may require 1980 Classic SAS before all the negative enhancements?;                                                 
     dm  'dexport sashelp.cars "d:/csv/cars.csv"';                                                                                     
                                                                                                                                       
     * gzip and unzip keeping csv and zip files;                                                                                       
